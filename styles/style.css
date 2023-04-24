@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+:root {
+  --bg-color: #2c3333;
+  --text-color: #cbe4de;
+  --card-color: #faf9f6;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: var(--card-color);
+  background-image: url(../assets/frame-6582681_1280.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0px 0px 67px -6px rgba(0, 0, 0, 0.78);
+  width: 31.25rem;
+  height: 40.6rem;
+  border-radius: 10px;
+}
+
+.card:hover {
+  box-shadow: -4px -4px 134px 26px rgba(230, 214, 150, 0.7);
+  transition: 2s;
+}
+
+.card__top__left {
+  position: absolute;
+  border-left: 30px solid var(--card-color);
+  border-bottom: 30px solid var(--card-color);
+  border-top: 30px solid #cacac8;
+  border-right: 30px solid #cacac8;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  z-index: 0;
+}
+
+.card__content__text {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+  padding: 60px;
+  z-index: 1;
+}
+
+.card__content__tittle {
+  font-family: 'Parisienne', cursive;
+  font-size: 55px;
+  color: #00425a;
+  font-weight: 400;
+}
+
+.card__button {
+  border: 0;
+  background-color: transparent;
+  color: #00425a;
+}
+
+.card__button:hover {
+  cursor: pointer;
+}
