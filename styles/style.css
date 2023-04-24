@@ -106,3 +106,9 @@ body {
     display: none;
   }
 }
+
+@media screen and (max-width: 360px) {
+  .card__content {
+    background-size: 125%;
+  }
+}
