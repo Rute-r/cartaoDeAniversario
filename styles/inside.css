@@ -175,3 +175,60 @@ p {
 a {
   margin-left: 400px;
 }
+
+.btn-small {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .card {
+    margin: auto;
+    flex-direction: column;
+    width: 300px;
+    height: 70%;
+  }
+
+  .card__inside1 {
+    width: 300px;
+    height: 50%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border: 0;
+  }
+  .card__inside {
+    width: 300px;
+    height: 50%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border: 0;
+  }
+
+  .card__content__tittle {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 10px;
+  }
+
+  .card__content__text {
+    padding: 25px;
+    gap: 5px;
+  }
+
+  .ps {
+    margin-top: 10px;
+  }
+
+  a {
+    margin-left: 250px;
+  }
+
+  .btn-small {
+    display: block;
+  }
+
+  .btn-big {
+    display: none;
+  }
+}
