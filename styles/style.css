@@ -75,3 +75,25 @@ body {
 .card__button:hover {
   cursor: pointer;
 }
+
+@media screen and (max-width: 500px) {
+  .card__content {
+    width: 300px;
+    height: 400px;
+  }
+
+  .card__content__tittle {
+    font-size: 25px;
+  }
+
+  .card__button-small {
+    display: block;
+    border: 0;
+    background-color: transparent;
+    color: #00425a;
+  }
+
+  .card__button {
+    display: none;
+  }
+}
