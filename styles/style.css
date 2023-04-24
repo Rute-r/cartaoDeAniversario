@@ -83,12 +83,12 @@ body {
 @media screen and (max-width: 500px) {
   .card {
     width: 300px;
-    height: 70%;
+    height: 500px;
   }
   .card__content {
     width: 300px;
     height: 100%;
-    background-size: 110%;
+    background-size: 120%;
   }
 
   .card__content__tittle {
@@ -104,11 +104,5 @@ body {
 
   .card__button {
     display: none;
-  }
-}
-
-@media screen and (max-width: 360px) {
-  .card__content {
-    background-size: 125%;
   }
 }
